@@ -187,7 +187,7 @@ img {
   border: none;
 }
 .nav-container .nav-bar .nav-container a {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   text-decoration: none;
   color: #000;
 }
@@ -204,6 +204,13 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .header-container {
+  padding-bottom: 10px;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.home .header-container .hero {
+  padding-bottom: 20px;
 }
 .home .content-section {
   margin: 30px 0;
