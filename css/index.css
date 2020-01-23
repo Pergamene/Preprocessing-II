@@ -168,6 +168,32 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.nav-container {
+  width: 100vw;
+  border-bottom: 2px dashed #C0C0C0;
+}
+.nav-container .nav-bar {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-container .nav-bar .nav-container {
+  width: 48%;
+  display: flex;
+  justify-content: space-around;
+  border: none;
+}
+.nav-container .nav-bar .nav-container a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #000;
+}
+.nav-container .nav-bar .logo-container {
+  justify-content: flex-start;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
