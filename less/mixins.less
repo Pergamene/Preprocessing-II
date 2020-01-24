@@ -1,5 +1,5 @@
 // Mixins in here
-.btn(@background-color, @color) {
+.btn(@background-color:#17a2b8, @color:#fff, @width:85%) {
   background-color: @background-color;
   color: @color;
   font-size: 1.8rem;
@@ -7,5 +7,5 @@
   text-align: center;
   padding: 13px 0;
   border-radius: 15px;
-  width: 85%;
+  width: @width;
 }
